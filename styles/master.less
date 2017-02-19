@@ -1,0 +1,152 @@
+// out: master.css
+// This is for global values
+
+@orange: #ff891c; // resultant
+@blue: #4895fb; // motion
+@green: #27db6a; // braking
+@yellow: #ecea49; // vel
+@purple: #fb66d6; // momentum
+@red: #f15d2e;
+
+.orange {background-color: @orange;}
+.blue {background-color:   @blue;}
+.green {background-color:  @green;}
+.yellow {background-color: @yellow;}
+.purple {background-color: @purple;}
+.red {background-color:    @red;}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffec77;
+
+    user-select: none;
+
+    width: 100%;
+    height: 100%;
+    //display: block;
+
+    font-family: Open Sans;
+}
+
+.indexpadding {
+    height: 230px;
+}
+
+button:focus {outline: none;}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lilita One;
+    color: #212121;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.faint {
+    opacity: 0.4;
+}
+
+.faint2 {
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 130pt;
+    margin-bottom: 40px;
+}
+
+h1.topicshead {
+    margin-top: 0px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+div.container {
+    background-color: white;
+    border-radius: 10px;
+    width: 55%;
+    margin: auto;
+    min-height: 100px;
+    font-size: 17pt;
+    overflow: hidden;
+    margin-bottom: 40px;
+
+    img {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    div.header {
+        width: 100%;
+        background-color: #ededed;
+        min-height: 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-weight: bold;
+        padding: 15px;
+    }
+
+    div.contents {
+        padding: 20px;
+    }
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    border-radius: 10px;
+}
+
+a.topic {
+    font-size: 24pt;
+    text-decoration: none;
+    //padding: 7px 150px 7px 150px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+div.main {
+    margin: auto;
+    //margin-top: 300px;
+    top: 0;
+    bottom: 0;
+    width: 60%;
+    max-width: 400px;
+    height: 100%;
+    min-height: 100%;
+
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 16px;
+
+    font-size: 10pt;
+}
+
+footer.short {
+    height: 50px;
+}
+
+p {
+    font-family: Open Sans;
+}
