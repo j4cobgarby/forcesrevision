@@ -109,7 +109,7 @@ div.main {
   top: 0;
   bottom: 0;
   width: 60%;
-  max-width: 400px;
+  max-width: 700px;
   height: 100%;
   min-height: 100%;
   text-align: center;
@@ -127,6 +127,29 @@ footer {
 footer.short {
   height: 50px;
 }
+code {
+  font-size: 12pt;
+  background-color: #ededed;
+  border-color: #cdcdcd;
+  border-width: 1px;
+  border-radius: 8px;
+  padding: 7px;
+}
 p {
+  font-family: Open Sans;
+}
+.nobottom {
+  margin-bottom: 0;
+}
+.notop {
+  margin-top: 0;
+}
+.paddingbottom {
+  padding-bottom: 40px;
+}
+.marginbottom {
+  margin-bottom: 50px;
+}
+.sans {
   font-family: Open Sans;
 }
